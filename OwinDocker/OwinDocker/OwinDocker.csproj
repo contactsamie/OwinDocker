@@ -100,7 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Startup.cs" />
-    <None Include="Dockerfile" />
+    <None Include="Dockerfile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Compile Include="HelloController.cs" />
     <Compile Include="MyServiceClass.cs" />
     <Compile Include="Program.cs" />
