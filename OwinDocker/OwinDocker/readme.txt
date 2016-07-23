@@ -21,3 +21,22 @@ WORKDIR /app
 CMD [ "mono",  "./OwinDocker.exe" ]
  
 EXPOSE 9000
+
+
+
+
+Use the docker login command to log into the Docker Hub from the command line.
+The format for the login command is:
+docker login --username=yourhubusername --email=youremail@company.com
+When prompted, enter your password and press enter. So, for example:
+$ docker login --username=maryatdocker --email=mary@docker.com
+Password:
+WARNING: login credentials saved in C:\Users\sven\.docker\config.json
+Login Succeeded
+
+
+$ docker tag 7d9495d03763 maryatdocker/docker-whale:latest
+
+
+#docker tag owindocker contactsamie/owindocker
+#docker push  contactsamie/owindocker
