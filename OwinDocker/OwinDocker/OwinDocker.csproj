@@ -99,17 +99,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="readme.txt" />
     <Compile Include="Startup.cs" />
-    <None Include="Dockerfile">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <Compile Include="HelloController.cs" />
     <Compile Include="MyServiceClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="nlog.config" />
     <None Include="packages.config" />
   </ItemGroup>
