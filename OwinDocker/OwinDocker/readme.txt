@@ -1,4 +1,4 @@
-﻿
+﻿# NEVER INCLUDE DOCKER FILE INTO VS PROJECT!!!!!
 # We use the microsoft/aspnet image as a starting point.
 FROM microsoft/aspnet
  
