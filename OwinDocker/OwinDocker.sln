@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinDocker", "OwinDocker\OwinDocker.csproj", "{78625723-7CB2-4243-94A6-1A9BC374F936}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{B47C123A-448A-49EA-81C3-5DD0A4E3CCEC}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		build.fsx = build.fsx
+		notes.txt = notes.txt
+		OwinDocker.Export.nuspec = OwinDocker.Export.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinDocker.Tests", "OwinDocker.Tests\OwinDocker.Tests.csproj", "{0463CC67-FD85-453E-9B13-63602D126255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinDocker.Export", "OwinDocker.Export\OwinDocker.Export.csproj", "{BC0697EB-270C-4CCF-8A2C-726FD19A4C76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,14 @@ Global
 		{78625723-7CB2-4243-94A6-1A9BC374F936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78625723-7CB2-4243-94A6-1A9BC374F936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78625723-7CB2-4243-94A6-1A9BC374F936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0463CC67-FD85-453E-9B13-63602D126255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0463CC67-FD85-453E-9B13-63602D126255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0463CC67-FD85-453E-9B13-63602D126255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0463CC67-FD85-453E-9B13-63602D126255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0697EB-270C-4CCF-8A2C-726FD19A4C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0697EB-270C-4CCF-8A2C-726FD19A4C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0697EB-270C-4CCF-8A2C-726FD19A4C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0697EB-270C-4CCF-8A2C-726FD19A4C76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+microservice:
+  image: contactsamie/inventoryservice 
+  restart: always
+  container_name: inventoryservice
+  ports: 
+    - 8099:8099 
+
+client: 
+  build: InventoryService.ServiceClientDeployment 
+  links: 
+    - microservice:inventoryservice  
+  ports: 
+    - 9099:9099 
+  restart: always
+  container_name: inventoryservice-client

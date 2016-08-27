@@ -99,7 +99,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="readme.txt" />
     <Compile Include="Startup.cs" />
     <Compile Include="HelloController.cs" />
     <Compile Include="MyServiceClass.cs" />
