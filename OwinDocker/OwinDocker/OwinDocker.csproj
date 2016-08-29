@@ -109,6 +109,8 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="docker-publish.bat" />
+    <None Include="docker-publish.ps1" />
     <None Include="nlog.config" />
     <None Include="packages.config" />
   </ItemGroup>
