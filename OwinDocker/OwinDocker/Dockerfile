@@ -11,4 +11,4 @@ COPY . /app
 WORKDIR /app
 CMD [ "mono",  "./bin/Release/OwinDocker.exe" ]
  
-EXPOSE 9000
+EXPOSE 9200

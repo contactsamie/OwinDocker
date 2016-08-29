@@ -7,7 +7,7 @@ namespace OwinDocker
     {
         public void Start()
         {
-            var address = "http://*:9000/";
+            var address = "http://*:9200/";
             // Start OWIN host
             using (WebApp.Start<Startup>(url: address))
             {
