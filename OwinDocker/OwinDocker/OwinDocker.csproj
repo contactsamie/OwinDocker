@@ -191,9 +191,6 @@
     <Content Include="web\css\freelancer.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="web\css\freelancer.min.css">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="web\img\portfolio\cabin.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
