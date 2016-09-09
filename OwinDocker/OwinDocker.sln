@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinDocker.Export", "OwinDo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinDocker.UI", "OwinDocker.UI\OwinDocker.UI.csproj", "{E73C63AB-6583-4470-93E2-81AB6D8087CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinDocker.App", "OwinDocker.App\OwinDocker.App.csproj", "{EED2B287-4BFF-4CC0-86E5-8D9E97291148}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{E73C63AB-6583-4470-93E2-81AB6D8087CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E73C63AB-6583-4470-93E2-81AB6D8087CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E73C63AB-6583-4470-93E2-81AB6D8087CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED2B287-4BFF-4CC0-86E5-8D9E97291148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED2B287-4BFF-4CC0-86E5-8D9E97291148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED2B287-4BFF-4CC0-86E5-8D9E97291148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED2B287-4BFF-4CC0-86E5-8D9E97291148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

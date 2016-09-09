@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
+﻿using System.Net;
 using System.Net.Http.Formatting;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web.Http;
 using Microsoft.Owin.FileSystems;
 using Microsoft.Owin.Security.ActiveDirectory;
@@ -14,7 +9,7 @@ using Newtonsoft.Json.Serialization;
 using NLog.Owin.Logging;
 using Owin;
 
-namespace OwinDocker.OwinExt
+namespace OwinDocker.App
 {
     public class SetUpOwinThings
     {

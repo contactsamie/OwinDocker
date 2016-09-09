@@ -1,4 +1,5 @@
-﻿using Topshelf;
+﻿using OwinDocker.App;
+using Topshelf;
 
 /*
     Install-Package Microsoft.AspNet.WebApi.Owin

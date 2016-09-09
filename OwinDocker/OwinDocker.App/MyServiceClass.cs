@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Owin.Hosting;
 
-namespace OwinDocker
+namespace OwinDocker.App
 {
     public class MyServiceClass
     {

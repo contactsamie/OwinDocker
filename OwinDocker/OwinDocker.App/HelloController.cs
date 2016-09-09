@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace OwinDocker
+namespace OwinDocker.App
 {
     public class HelloController : ApiController
     {
