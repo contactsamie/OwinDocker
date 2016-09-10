@@ -126,7 +126,7 @@ angular.module("OwinDockerApp").controller("OwinDockerCtrl", function ($scope, $
 
     $interval(function() {
         $scope.updateGrid();
-    },10000);
+    },3000);
   
     hub.ready(function () {
         hub.server.getInventoryList();

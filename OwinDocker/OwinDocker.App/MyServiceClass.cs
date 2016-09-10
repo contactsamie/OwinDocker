@@ -34,7 +34,7 @@ namespace OwinDocker.App
             {
                 Total = 0;
             }
-            Task.Delay(TimeSpan.FromSeconds(5)).ContinueWith(x =>
+            Task.Delay(TimeSpan.FromSeconds(3)).ContinueWith(x =>
                 {
                     GlobalHost.ConnectionManager.GetHubContext<OwinDockerHub>().Clients.All.inventoryData(data);
                     DataFactory();
