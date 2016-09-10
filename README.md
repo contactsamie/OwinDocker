@@ -20,3 +20,16 @@ contactsamie/owindocker
              \______ o          __/
               \    \        __/
                 \____\______/
+
+
+This is a story about 
+F# FAKE build
+nuget package
+WebAPI 
+Owin
+SignalR
+Topshelf
+Docker container
+AngularJS 
+Datagrid view
+
