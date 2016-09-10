@@ -9,6 +9,6 @@ RUN mkdir -p /app
 COPY . /app
  
 WORKDIR /app
-CMD [ "mono",  "./bin/Release/OwinDocker.exe" ]
+CMD [ "mono",  "./bin/Debug/OwinDocker.exe" ]
  
 EXPOSE 9200
