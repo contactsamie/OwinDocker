@@ -127,6 +127,7 @@
   <ItemGroup>
     <Compile Include="HelloController.cs" />
     <Compile Include="MyServiceClass.cs" />
+    <Compile Include="OwinDockerHub.cs" />
     <Compile Include="SetUpOwinThings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -134,12 +135,6 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\OwinDocker.UI\OwinDocker.UI.csproj">
-      <Project>{e73c63ab-6583-4470-93e2-81ab6d8087cb}</Project>
-      <Name>OwinDocker.UI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

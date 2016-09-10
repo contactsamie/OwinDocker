@@ -8,10 +8,12 @@ namespace OwinDocker.App
     {
         public void Configuration(IAppBuilder appBuilder)
         {
+            appBuilder.MapSignalR();
             HttpConfiguration config = new HttpConfiguration();
             SetUpOwinThings.SetUpWebApi(appBuilder, config);
             SetUpOwinThings.SetUpFileServer(appBuilder, AppDomain.CurrentDomain.BaseDirectory + "web");
             SetUpOwinThings.SetUpIntegratedWindowsAuthentication(appBuilder);
+
         }
     }
 }

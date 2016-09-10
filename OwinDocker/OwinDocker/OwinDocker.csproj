@@ -163,6 +163,10 @@
       <Project>{eed2b287-4bff-4cc0-86e5-8d9e97291148}</Project>
       <Name>OwinDocker.App</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OwinDocker.UI\OwinDocker.UI.csproj">
+      <Project>{e73c63ab-6583-4470-93e2-81ab6d8087cb}</Project>
+      <Name>OwinDocker.UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

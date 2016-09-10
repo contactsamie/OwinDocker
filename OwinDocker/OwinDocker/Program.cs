@@ -1,4 +1,5 @@
-﻿using OwinDocker.App;
+﻿using Microsoft.AspNet.SignalR;
+using OwinDocker.App;
 using Topshelf;
 
 /*
@@ -34,4 +35,5 @@ namespace OwinDocker
             });                                                  //10
         }
     }
+   
 }
